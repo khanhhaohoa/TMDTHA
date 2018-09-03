@@ -1,0 +1,29 @@
+$sku[$i]['SellerSku'] = $res['data']['products'][$k]['skus'][$i]['SellerSku'];
+			$sku[$i]['color_family'] = $res['data']['products'][$k]['skus'][$i]['color_family'];
+			$sku[$i]['color_text'] = $res['data']['products'][$k]['skus'][$i]['color_text'];
+			$sku[$i]['frame_color'] = $res['data']['products'][$k]['skus'][$i]['frame_color'];
+			$sku[$i]['lens_color'] = $res['data']['products'][$k]['skus'][$i]['lens_color'];
+			$sku[$i]['fragrance_family'] = $res['data']['products'][$k]['skus'][$i]['fragrance_family'];
+			$sku[$i]['size'] = $res['data']['products'][$k]['skus'][$i]['size'];
+			$sku[$i]['size_wear'] = $res['data']['products'][$k]['skus'][$i]['size_wear'];
+			$sku[$i]['bedding_size_2'] = $res['data']['products'][$k]['skus'][$i]['bedding_size_2'];
+			$sku[$i]['quantity'] = $res['data']['products'][$k]['skus'][$i]['quantity'];
+			$sku[$i]['price'] = $res['data']['products'][$k]['skus'][$i]['price'];
+			$sku[$i]['brand_compatibility'] = $res['data']['products'][$k]['skus'][$i]['brand_compatibility'];
+
+
+
+
+			<SellerSku>'.$sku[$j]['SellerSku'].'</SellerSku>                 
+	            <color_family>'.$sku[$j]['color_family'].'</color_family>
+	            <color_text>'.$sku[$j]['color_text'].'</color_text>
+	            <frame_color>'.$sku[$j]['frame_color'].'</frame_color>
+	            <lens_color>'.$sku[$j]['lens_color'].'</lens_color>
+	            <fragrance_family>'.$sku[$j]['fragrance_family'].'</fragrance_family>                 
+	            <size>'.$sku[$j]['size'].'</size>
+	            <size_wear>'.$sku[$j]['size_wear'].'</size_wear>
+	            <bedding_size_2>'.$sku[$j]['bedding_size_2'].'</bedding_size_2>
+	                             
+	            <quantity>'.$sku[$j]['quantity'].'</quantity>                
+	            <price>'.$sku[$j]['price'].'</price>  
+	            <brand_compatibility>'.$sku[$j]['brand_compatibility'].'</brand_compatibility> 
